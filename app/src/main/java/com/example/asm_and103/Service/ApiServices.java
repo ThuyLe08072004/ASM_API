@@ -19,7 +19,7 @@ import retrofit2.http.Part;
 import retrofit2.http.Path;
 
 public interface ApiServices {
-    public static final String BASE_URL = "http://192.168.0.104:3000/";
+    public static final String BASE_URL = "http://192.168.12.168:3000/";
     @GET("/get-list-product")
     Call<Respone<ArrayList<Product>>> getListProduct();
     @Multipart

@@ -58,8 +58,8 @@
         android:layout_height="49dp"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="37dp"
-        android:background="@drawable/edit_button"
-        android:text="Thêm"
+        android:text="Thêm"        android:background="@drawable/edit_button"
+
         android:textSize="20sp"
         android:textAllCaps="false"
         android:textColor="@color/white"/>
